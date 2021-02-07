@@ -13,13 +13,13 @@ If you spot any errors in the survey below, please let me know.
 ## Survey
 
 - [C](#c)
-- [C++](#c++)
+- [C++](#c-1)
 - [Java](#java)
 - [Python](#python)
 - [Typescript](#typescript)
 - [Haskell](#haskell)
 - [F#](#f)
-- [C#](#c-1)
+- [C#](#c-2)
 - [Swift](#swift)
 - [Rust](#rust)
 - [Kotlin](#kotlin)
@@ -234,7 +234,7 @@ enum Suit {
     Hearts = 0,
     Diamonds = 1,
     Clubs = 2,
-    Spades =3,
+    Spades = 3,
 }
 ```
 
@@ -679,9 +679,9 @@ enum class Suit(val abbrev: String) {
     DIAMONDS("D") {
         override fun color(): String = "Red"
     },
-    CLUBS(C") {
-         override fun color(): String = "Black"
-     },
+    CLUBS("C") {
+        override fun color(): String = "Black"
+    },
     SPADES("S") {
         override fun color(): String = "Black"
     };
